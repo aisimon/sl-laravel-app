@@ -5,9 +5,9 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./php/Dockerfile
     image: digitalocean.com/php
-    container_name: sl--app
+    container_name: sl-app
     restart: unless-stopped
     tty: true
     environment:
