@@ -1,7 +1,7 @@
 ## What is this
 
 A blank LEMP docker template with
-- PHP 8.2 (with MySQL, GD)
+- PHP 8.2 (with pdo_mysql zip exif pcntl GD)
 - Laravel
 - Mysql 5.7.22
 - Nginx:alpine
