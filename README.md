@@ -9,6 +9,8 @@ A blank LEMP docker template with the following to start off your work quick
 
 ## What to do with this
 
+You will need Docker Desktop, a WSL on Windows or a Linux machine to run this.
+
 1. Clone this repo
 2. Check the `.env` file and change the `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD` to your liking
 3. Run `docker run --rm -v $(pwd):/app composer install` to install the laravel dependencies. This will create a `vendor` folder in the root directory, and create a `composer.lock` file. There will be docker container created too.
