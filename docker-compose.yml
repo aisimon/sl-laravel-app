@@ -1,4 +1,3 @@
-version: '3'
 
 services:
   #PHP Service
@@ -38,6 +37,7 @@ services:
   #MySQL Service
   db:
     image: mysql:5.7.22
+    platform: linux/amd64
     container_name: sl-db
     restart: unless-stopped
     tty: true
